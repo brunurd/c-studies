@@ -1,0 +1,5 @@
+# builded files
+/bin/*
+!/bin/.gitkeep
+/build/*
+!/build/.gitkeep
