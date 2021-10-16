@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include <c_studies_lib/hello.h>
 
-int main(int argc, char *argv[]){
-	char *input = argv[1];
+void hello(const char *input){
 	if (input == NULL) printf("hello world!\n");
 	else printf("hello %s!\n", input);
 }
