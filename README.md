@@ -21,3 +21,8 @@ To run the application call:
 make run
 ```
 
+### 3. Test
+To run all the tests call:
+```bash
+make test
+```

@@ -11,3 +11,7 @@ build:
 .PHONY: run
 run:
 	@./scripts/run.sh $(RUN_ARGS)
+
+.PHONY: test
+test:
+	@./scripts/test.sh
