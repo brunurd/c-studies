@@ -15,3 +15,7 @@ run:
 .PHONY: test
 test:
 	@./scripts/test.sh
+
+.PHONY: debug
+debug:
+	@./scripts/debug.sh
