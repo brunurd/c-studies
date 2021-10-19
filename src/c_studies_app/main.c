@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <c_studies_lib/hello.h>
+#include <c_studies_lib/reader.h>
 
 int main(int argc, char *argv[]){
-	printf("%s\n", hello(argv[1]));
+	printf("%s\n", read_file("./bin/file-read-test.txt"));
 }
